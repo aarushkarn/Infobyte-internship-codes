@@ -1,7 +1,7 @@
 import random
 import string
 
-def generate_password(length=12):
+def generate_password(length):
     all_characters = string.ascii_letters + string.digits + string.punctuation
     if length < 12:
         print("Password length should be at least 12")
@@ -12,5 +12,6 @@ def generate_password(length=12):
     return password
 
 if __name__ == "__main__":
-    password = generate_password()
+    user_length = int(input("Enter password length (minimum 12): "))
+    password = generate_password(user_length)
     print(f"Generated Password: {password}")
