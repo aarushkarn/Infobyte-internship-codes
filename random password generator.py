@@ -4,7 +4,7 @@ import string
 def generate_password(length):
     all_characters = string.ascii_letters + string.digits + string.punctuation
     if length < 12:
-        print("Password  slength should be at least 12")
+        print("Password  slength should be  at least 12")
         return None
     
     password = ''.join(random.choice(all_characters) for i in range(length))
