@@ -1,6 +1,6 @@
 def calculate_bmi(weight_kg, height_cm):
-    height_m = height_cm / 100
-    bmi = weight / (height_m ** 2)
+    a_m = height_cm / 100
+    bmi = weight / (a_m ** 2)
     return bmi
 
 if __name__ == "__main__":
