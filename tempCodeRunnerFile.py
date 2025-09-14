@@ -1,1 +1,1 @@
-print(f"Generated Password: {password}")
+except ValueError
