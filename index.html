@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Weather, the Chatty Way</title>
+    <meta charset="UTF-8"/>
+    <style>
+        body { font-family: sans-serif; margin: 2em; }
+        #weatherBox { margin-top: 2em; }
+        .label { font-weight: bold; }
+    </style>
+</head>
+<body>
+    <h1>Weather Unplugged</h1>
+    <p>Tell me a city, I'll tell you the weather:</p>
+    <input id="cityInput" type="text" placeholder="Jaipur, Delhi, Mumbai..." />
+    <button onclick="askWeather()">Ask!</button>
+
+    <div id="weatherBox"></div>
+
+    <script src="/static/weather.js"></script>
+</body>
+</html>
